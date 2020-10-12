@@ -42,4 +42,4 @@ start /WAIT C:\Games\viewer.exe /HideWindow C:\Games\unzip.exe -o C:\Games\Games
 timeout /t 1
 del C:\Games\cmmc.cmd
 timeout /t 1
-rename C:\Games\cmmce.cmd cmmc.cmd
+move /Y C:\Games\cmmce.cmd C:\Games\cmmc.cmd
